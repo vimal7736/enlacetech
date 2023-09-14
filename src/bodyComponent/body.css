@@ -1,0 +1,138 @@
+/* Card.css */
+
+.card-container {
+  margin: 0 40px 100px; /* Adjust the margin value as needed */
+}
+.content-inside{
+  margin-left: 80px;
+}
+
+.main-card {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row on smaller screens */
+  gap: 30px;
+}
+.main-card-section {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Distribute space evenly between items */
+  gap: 40px;
+}
+
+.whole-secton{
+  display: flex;
+}
+
+
+.card {
+  flex: 1; /* Make cards flexible to occupy equal space in a row */
+  position: relative;
+  gap: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f2eeff;
+  width: 279px;
+  height: auto;
+  flex-shrink: 0;
+}
+.trainerscard-main{
+gap: 30px;}
+
+.trainercard {
+  flex: 1; /* Make cards flexible to occupy equal space in a row */
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f2eeff;
+  width: 279px;
+  height: 191px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+.trainercard1 {
+  flex: 1; /* Make cards flexible to occupy equal space in a row */
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f2eeff;
+  width: 279px;
+  height: 116px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.course-details {
+  margin-left: 30px;
+  font-size: xx-small;
+}
+
+.inner-card {
+  margin: 0 15px; /* Adjust the margin value as needed */
+  width: auto;
+  height: auto; /* Let the height adjust based on content */
+  border-radius: 15px;
+  background-color: #372470;
+}
+
+.tech-name {
+  font-weight: bold; /* Use 'bold' instead of '"800"' for font-weight */
+  margin-top: 20px; /* Reduce margin for small screens */
+  color: #fff;
+}
+
+.tech-heart {
+  text-align: end;
+  margin-right: 20px;
+}
+
+.tech-heart svg {
+  margin-top: 10px; /* Reduce margin for small screens */
+}
+
+
+
+
+
+.session_heading {
+  margin-left: 80px;
+  font-weight: 700;
+  font-size: 24px; /* Reduce font size for small screens */
+  line-height: 36px; /* Adjust line height for small screens */
+  text-align: left;
+  margin-bottom: 4px;
+  color: #372470;
+}
+.heading-top {
+  font-weight: bolder;
+  font-size: 50px;
+  color: #372470;
+}
+.heading-middle {
+  font-size: 40px;
+  font-family: cursive;
+}
+.svg-style {
+  margin-left: -24px;
+}
+.curve-under-line {
+  margin-left: 200px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .main-card {
+    flex-direction: column; /* Stack cards vertically on small screens */
+  }
+
+  .card {
+    max-width: 100%; /* Cards occupy full width on small screens */
+  }
+
+  .tech-name {
+    margin-top: 10px;
+  }
+
+  .tech-heart svg {
+    margin-top: 5px;
+  }
+}

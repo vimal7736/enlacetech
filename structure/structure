@@ -1,0 +1,38 @@
+// my-course-project/
+// ├── components/
+// │   ├── Header.js
+// │   ├── Footer.js
+// │   ├── CourseCard.js
+// │   └── 
+// ├── pages/
+// │   ├── index.js
+// │   ├── courses/
+// │   │   ├── [courseId].js
+// │   │   └── 
+// │   ├── about.js
+// │   ├── contact.js
+// │   └── 
+// ├── public/
+// │   ├── images/
+// │   │   ├── course1.jpg
+// │   │   ├── course2.jpg
+// │   │   └── 
+// │   ├── styles/
+// │   │   ├─ main.css
+// │   │   └─
+// │   ├── favicon.ico
+// │   └── 
+// ├── styles/
+// │   ├── globals.css
+// │   ├── theme.js
+// │   └── 
+// ├── data/
+// │   ├── courses.json
+// │   ├── instructors.json
+// │   └── 
+// ├── lib/
+// │   ├── api.js
+// │   └── 
+// ├── README.md
+// ├── package.json
+// └── 
